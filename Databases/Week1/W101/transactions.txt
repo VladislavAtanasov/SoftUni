@@ -1,0 +1,16 @@
+Transaction
+ 
+	A transaction is a unit of work that you want to treat as "a whole". It has to either happen in full, or not at all. A classical example is transferring money from one bank account to another. 
+
+ACID
+
+	ACID (atomicity, consistency, isolation, durability) is a set of properties that guarantee database transactions are processed reliably.
+
+Atomicity: an entire document gets printed or nothing at all
+Consistency: at end-of-transaction, the paper feed is positioned at top-of-page
+Isolation: no two documents get mixed up while printing
+Durability: the printer can guarantee that it was not "printing" with empty cartridges.
+
+Transaction Log
+
+	Transaction log is a history of actions executed by a database management system to guarantee ACID properties over crashes or hardware failures. Physically, a log is a file listing changes to the database, stored in a stable storage format.

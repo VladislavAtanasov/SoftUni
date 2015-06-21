@@ -1,0 +1,13 @@
+NoSQL
+
+	A NoSQL database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.Motivations for this approach include simplicity of design, horizontal scaling, and finer control over availability. The data structures used by NoSQL databases (e.g. key-value, graph, or document) differ from those used in relational databases, making some operations faster in NoSQL and others faster in relational databases. The particular suitability of a given NoSQL database depends on the problem it must solve.
+
+Examples
+
+	
+    Column: Accumulo, Cassandra, Druid, HBase, Vertica
+    Document: Lotus Notes, Clusterpoint, Apache CouchDB, Couchbase, HyperDex, MarkLogic, MongoDB, OrientDB, Qizx
+    Key-value: CouchDB, Dynamo, FoundationDB, HyperDex, MemcacheDB, Redis, Riak, FairCom c-treeACE, Aerospike, OrientDB, MUMPS
+    Graph: Allegro, Neo4J, InfiniteGraph, OrientDB, Virtuoso, Stardog
+    Multi-model: OrientDB, FoundationDB, ArangoDB, Alchemy Database, CortexDB
+
