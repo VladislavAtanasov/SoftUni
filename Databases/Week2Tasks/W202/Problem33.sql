@@ -1,0 +1,4 @@
+BEGIN TRAN 
+	DROP TABLE EmployeesProjects;
+	DROP TABLE Projects;
+ROLLBACK TRAN
